@@ -11,27 +11,14 @@
 </head>
 <body>
     <header class="fixed top-0 left-0 z-10 bg-white">
-        <nav class="flex justify-between items-center relative mx-auto w-screen px-9 md:px-20 py-4 z-10 shadow-md">
-            <div class="hidden lg:flex justify-center items-center space-x-3">
+        <nav class="flex justify-between relative items-center mx-auto w-screen px-9 sm:px-20 py-4 z-10 shadow-md">
+            <div class="flex justify-center items-center space-x-3 py-3">
                 <img src="/assets/images/profile_pic.png" class="h-9 mask mask-hexagon shadow-sm" alt="Profile pic">
                 <h2 class="font-semibold  text-lg">Parker Martel</h2>
             </div>
-            
-            <!-- Hamburger menu for small screens -->
-            <div id="hamburger" class="md:hidden dropdown py-1">
-                <div tabindex="0" class="btn btn-ghost btn-circle">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
-                </div>
-                <div id="table" tabindex="0" class="dropdown-content menu p-2 shadow-md bg-base-200 rounded-box w-52">
-                    <li><a class="homeclass navitems">Home</a></li>
-                    <li><a class="aboutmeclass navitems">About Me</a></li>
-                    <li><a class="skillsclass navitems">Skills</a></li>
-                    <li><a class="projectsclass navitems">Projects</a></li>
-                </div>
-            </div>
 
-            <!-- Menu for big screens -->
-            <div class="hidden md:flex justify-center items-center pt-3 space-x-8">
+            <!-- Navbar menu on big screens -->
+            <div class="hidden lg:flex justify-center items-center pt-3 space-x-8">
                 <button class="homeclass navitems2 text-lg font-semibold hover:text-black group transition duration-300">
                     Home
                 <span class="block spanitems mt-4 max-w-full group-hover:visible h-0.5 invisible bg-primary-focus"></span>
@@ -49,16 +36,16 @@
                 <span class="block spanitems mt-4 max-w-full group-hover:visible h-0.5 invisible bg-primary-focus"></span>
                 </button>
             </div>
-            <div class="flex justify-center items-center space-x-7">
-                <a id="linkedin" class="devicon-linkedin-plain colored text-3xl hover:scale-110 transition-transform duration-200" href="https://www.linkedin.com/in/parker-martel-616251260/" target="_blank">
-                    <a id="github" class="devicon-github-original colored text-3xl hover:scale-110 transition-transform duration-200" href="https://github.com/parker-martel" target="_blank"></a>
+            <div class="flex justify-center items-center space-x-3 sm:space-x-6">
+                <a id="linkedin" href="https://www.linkedin.com/in/parker-martel-616251260/" target="_blank"><span class="text-lg font-semibold">LinkedIn</span></a>
+                <a id="github" class="devicon-github-original colored text-3xl hover:scale-105 transition-transform duration-200" href="https://github.com/parker-martel" target="_blank"></a>
                 <a class="btn btn-outline btn-primary" href="/assets/My Resume.pdf" target="_blank">Resume</a>
             </div>            
         </nav>
     </header>
     <main class="flex flex-col mx-auto max-w-4xl px-4 md:px-12">
         <!-- Name and Profile Pic Section -->
-        <section id="home" class="section flex flex-col justify-center h-screen w-full items-center">
+        <section id="home" class="section flex flex-col h-screen w-full items-center justify-center">
             <div class="flex flex-col space-y-12 items-start text-left p-8 bg-white bg-opacity-85 backdrop-blur-sm shadow-xl border-2 border-black rounded-2xl">
             <div class="flex flex-col space-y-5">
                 <h2 class="font-bold pb-1 text-5xl sm:text-6xl">Hi There,</h2>
@@ -136,7 +123,7 @@
             
             <!-- Project 1 -->
             <section>
-            <div class="collapse collapse-arrow project-box">
+            <div tabindex="0" class="collapse collapse-arrow project-box">
                 <input type="checkbox" class="peer" /> 
                 <div class="collapse-title text-xl">
                     University Database System 🗄️
@@ -169,7 +156,7 @@
 
              <!-- Project 2 -->
              <section>
-                <div class="collapse collapse-arrow project-box">
+                <div tabindex="0" class="collapse collapse-arrow project-box">
                     <input type="checkbox" class="peer" /> 
                     <div class="collapse-title text-xl">
                         Rock, Paper, Scissors ✂️
@@ -200,7 +187,7 @@
 
                 <!-- Project 3 -->
                 <section>
-                <div class="collapse collapse-arrow project-box">
+                <div tabindex="0" class="collapse collapse-arrow project-box">
                     <input type="checkbox" class="peer" /> 
                     <div class="collapse-title text-xl">
                         Todo List 📝
@@ -227,7 +214,7 @@
 
                 <!-- Project 4 -->
                 <section>
-                <div class="collapse collapse-arrow project-box">
+                <div tabindex="0" class="collapse collapse-arrow project-box">
                     <input type="checkbox" class="peer" /> 
                     <div class="collapse-title text-xl">
                         Compiler Program 🔑
@@ -235,7 +222,7 @@
                     <div class="collapse-content"> 
                         <div class="h-0.5 bg-neutral mb-2"></div>
                         <div class="flex flex-col items-center w-full space-y-2">
-                            <p>Compilers project to write a compiler in c++ that, given a Context-Free Grammar and parsing table, traces input strings over the arithmetic alphabet, checking against the production rules and verifying if the given input string is accepted or rejected by the compiler.</p>
+                            <p>Compilers project to write a compiler in c++ that, given the Context-Free Grammar and the parsing table, traces input strings over the arithmetic alphabet, checking against the production rules and verifying if the given input string is accepted or rejected by the compiler.</p>
                             <aside class="flex justify-start space-x-2 w-full pb-10">
                                 <div id="js" class="language-box">
                                     <img class="w-4" src="assets/images/cpp_logo.png" alt="CPP Logo">
@@ -250,7 +237,7 @@
 
                 <!-- Project 5 -->
                 <section>
-                <div class="collapse collapse-arrow project-box">
+                <div tabindex="0" class="collapse collapse-arrow project-box">
                     <input type="checkbox" class="peer" /> 
                     <div class="collapse-title text-xl">
                         Unix Shell 💻
@@ -273,7 +260,7 @@
 
              <!-- Project 6 -->
              <section>
-                <div class="collapse collapse-arrow project-box">
+                <div tabindex="0" class="collapse collapse-arrow project-box">
                     <input type="checkbox" class="peer" /> 
                     <div class="collapse-title text-xl">
                         Portfolio Website 📁
