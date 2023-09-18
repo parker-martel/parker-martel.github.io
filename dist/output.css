@@ -3084,8 +3084,8 @@ body {
   bottom: 0px;
 }
 
-.right-0 {
-  right: 0px;
+.right-16 {
+  right: 4rem;
 }
 
 .z-10 {
@@ -3678,8 +3678,8 @@ main {
 
 a#scroll-btn {
   position: absolute;
-  height: 2.5em;
-  width: 1.5em;
+  height: 2.6em;
+  width: 1.7em;
   border: 0.15em solid #000000;
   margin: auto;
   border-radius: 3em;
@@ -3705,7 +3705,7 @@ a#scroll-btn:before {
   }
 
   100% {
-    transform: translateY(1em);
+    transform: translateY(1.15em);
     opacity: 0;
   }
 }
@@ -3776,6 +3776,14 @@ a#scroll-btn:after {
 }
 
 @media (min-width: 640px) {
+  .sm\:bottom-12 {
+    bottom: 3rem;
+  }
+
+  .sm\:right-20 {
+    right: 5rem;
+  }
+
   .sm\:flex {
     display: flex;
   }
@@ -3802,12 +3810,6 @@ a#scroll-btn:after {
     --tw-space-x-reverse: 0;
     margin-right: calc(1.5rem * var(--tw-space-x-reverse));
     margin-left: calc(1.5rem * calc(1 - var(--tw-space-x-reverse)));
-  }
-
-  .sm\:space-y-10 > :not([hidden]) ~ :not([hidden]) {
-    --tw-space-y-reverse: 0;
-    margin-top: calc(2.5rem * calc(1 - var(--tw-space-y-reverse)));
-    margin-bottom: calc(2.5rem * var(--tw-space-y-reverse));
   }
 
   .sm\:px-12 {
