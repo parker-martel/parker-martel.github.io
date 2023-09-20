@@ -3660,6 +3660,30 @@ main {
   #hithere {
     padding: 1.5em;
   }
+
+  #hi {
+    font-size: 3rem;
+    line-height: 1;
+  }
+
+  #myname {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
+  #booksimage {
+    height: 7rem;
+  }
+
+  #intro {
+    margin-bottom: 0px;
+  }
+
+  #introbox > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-y-reverse: 0;
+    margin-top: calc(5rem * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(5rem * var(--tw-space-y-reverse));
+  }
 }
 
 a#scroll-btn {
