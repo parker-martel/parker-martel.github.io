@@ -32,7 +32,7 @@ nav {
 }
 
 .activespan {
-    @apply bg-[#c04444] visible
+    @apply bg-[#00e0f2] visible
 }
 
 .skills-boxes {
