@@ -3386,9 +3386,9 @@ body {
   border-width: 0px;
 }
 
-.bg-\[\#1E1E24\] {
+.bg-\[\#202025\] {
   --tw-bg-opacity: 1;
-  background-color: rgb(30 30 36 / var(--tw-bg-opacity));
+  background-color: rgb(32 32 37 / var(--tw-bg-opacity));
 }
 
 .bg-\[\#00e0f2\] {
@@ -3596,9 +3596,9 @@ nav {
 .skills-boxes {
   border-radius: 0.5rem;
   --tw-border-opacity: 1;
-  border-color: rgb(24 24 27 / var(--tw-border-opacity));
+  border-color: rgb(23 23 26 / var(--tw-border-opacity));
   --tw-bg-opacity: 1;
-  background-color: hsl(var(--b3, var(--b2)) / var(--tw-bg-opacity));
+  background-color: rgb(28 28 32 / var(--tw-bg-opacity));
   padding-left: 1rem;
   padding-right: 1rem;
   padding-top: 0.75rem;
@@ -3621,9 +3621,9 @@ nav {
 .language-box {
   border-radius: 0.5rem;
   --tw-border-opacity: 1;
-  border-color: hsl(var(--b2, var(--b1)) / var(--tw-border-opacity));
+  border-color: rgb(23 23 26 / var(--tw-border-opacity));
   --tw-bg-opacity: 1;
-  background-color: rgb(229 231 235 / var(--tw-bg-opacity));
+  background-color: rgb(209 213 219 / var(--tw-bg-opacity));
   padding-left: 0.5rem;
   padding-right: 0.5rem;
   padding-top: 0.25rem;
@@ -3636,9 +3636,9 @@ nav {
 .project-box {
   border-radius: 0.75rem;
   --tw-border-opacity: 1;
-  border-color: rgb(24 24 27 / var(--tw-border-opacity));
+  border-color: rgb(23 23 26 / var(--tw-border-opacity));
   --tw-bg-opacity: 1;
-  background-color: hsl(var(--b3, var(--b2)) / var(--tw-bg-opacity));
+  background-color: rgb(28 28 32 / var(--tw-bg-opacity));
   border-width:2px;
 }
 
